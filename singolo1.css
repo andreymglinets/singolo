@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #2d303a;
+}
+
+.header-logo{
+    padding-top: 35px;
+    padding-left: 3.9%;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.red-color{
+    display: flex;
+    flex-direction: column;
+}
