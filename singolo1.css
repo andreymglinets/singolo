@@ -8,12 +8,13 @@ body{
 header{     
     display: flex;     
     width: 100%;    
-     background-color: #2d303a; 
+    background-color: #2d303a; 
+    justify-content: space-between;
     }  
 .header-logo{     
-    padding-top: 29px;    
-    padding-left: 3.9%;     
-    font-size: 25px;     
+    margin-top: 28px;    
+    margin-left: 4%;     
+    font-size: 24px;     
     font-weight: bold;     
     color: #ffffff; 
 }  
@@ -21,12 +22,31 @@ header{
     color:#f06c64; 
 }  
 .menu{     
-    margin-top: 40px;     
-    list-style: disc; 
+    margin-top: 38px;     
+    margin-right: 3.9%;
 }  
+
 .red-color{     
-    display: inline-flex;          
-    list-style-type: square;     
+    display: inline; 
     color: #ffffff;     
-    font-size: 10px; 
+    font-size: 12px; 
 }
+
+.red-color:hover{
+    color: #f06c64;
+    cursor: pointer;
+}
+
+.red-color:not(:first-child){     
+    margin-left: 10px;
+}
+
+.red-color::after{
+    content: "\00B7";
+    color: #494e62;
+    margin-left: 12px;
+}
+
+.red-color:last-child:after {
+    content: none;
+  }
