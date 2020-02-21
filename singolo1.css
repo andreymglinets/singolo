@@ -1,27 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    font-family: 'Lato', sans-serif;
-}
-
-header{
-    display: flex;
-    flex-direction: column;
-    background-color: #2d303a;
-}
-
-.header-logo{
-    padding-top: 35px;
-    padding-left: 3.9%;
-    font-size: 19px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.red-color{
-    display: flex;
-    flex-direction: column;
+*{     
+    margin: 0;     
+    padding: 0; 
+}  
+body{     
+    font-family: 'Lato'; 
+}  
+header{     
+    display: flex;     
+    width: 100%;    
+     background-color: #2d303a; 
+    }  
+.header-logo{     
+    padding-top: 29px;    
+    padding-left: 3.9%;     
+    font-size: 25px;     
+    font-weight: bold;     
+    color: #ffffff; 
+}  
+#star{     
+    color:#f06c64; 
+}  
+.menu{     
+    margin-top: 40px;     
+    list-style: disc; 
+}  
+.red-color{     
+    display: inline-flex;          
+    list-style-type: square;     
+    color: #ffffff;     
+    font-size: 10px; 
 }
