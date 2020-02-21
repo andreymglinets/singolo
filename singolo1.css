@@ -18,11 +18,12 @@ header{
     }
 
 .header-logo{     
-    margin-top: 28px;    
+    margin-top: 29px;    
     margin-left: 4%;     
     font-size: 24px;     
     font-weight: bold;     
     color: #ffffff; 
+    cursor: pointer;
 }  
 #star{     
     color:#f06c64; 
@@ -94,4 +95,84 @@ main{
 #phones{
     margin-left: 1.8%;
     margin-top: -17px;
+}
+
+/* Footer ----------------------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 494px;
+    border-bottom: 6px solid #ffffff;
+    background-color: #f2f2f2;
+    color: #666d89;
+}
+
+.image-files{
+    width: 59px;
+    height: 59px;
+}
+
+#header-service{
+    font-weight: 900;
+    margin-top: 59px;
+    margin-left: 4%;
+    font-size: 29px;
+    letter-spacing: 0.2px;
+}
+
+#service-ditale{
+    font-weight: 300;
+    margin-top: 19px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.first-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.qualities-one{
+    display: flex;
+    flex: 25.3%;
+    margin-top: 47px;
+    margin-left: 4%;
+}
+
+.qualities-two{
+    display: flex;
+    flex: 25.3%;
+    margin-top: 47px;
+    margin-left: 2%;
+}
+
+.qualities-three{
+    display: flex;
+    flex: 25.3%;
+    margin-right: 4%;
+    margin-left: 2%;
+    margin-top: 47px;
+}
+
+.inform{
+    margin: -4px 0px 0px 6.8%;
+}
+
+.line-title{
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.line-text{
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 21px;
+    word-spacing: -0.04em;
+    word-wrap: break-word;
 }
