@@ -130,23 +130,28 @@ footer{
     text-align: justify;
 }
 
-.first-line{
+.first-line {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 47px;
+}
+
+.second-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 34px;
 }
 
 .qualities-one{
     display: flex;
     flex: 25.3%;
-    margin-top: 47px;
     margin-left: 4%;
 }
-
 .qualities-two{
     display: flex;
     flex: 25.3%;
-    margin-top: 47px;
     margin-left: 2%;
 }
 
@@ -155,7 +160,6 @@ footer{
     flex: 25.3%;
     margin-right: 4%;
     margin-left: 2%;
-    margin-top: 47px;
 }
 
 .inform{
