@@ -11,7 +11,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #2d303a;
-    padding-left: 4%;
+    padding-left: 3.9%;
 }
 
 .header-logo{
@@ -28,7 +28,7 @@ header{
     font-weight: 300;
     color: #767e9e;
     font-size: 18px;
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 .header-nav{
@@ -57,4 +57,18 @@ li.header-button:hover{
     color: #ffffff;
     border-color: #ffffff;
     cursor: pointer;
+}
+
+main{
+    background-color: #2d303a;
+    padding: 18px 3.9%;
+}
+
+.first-line{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line-img:not(:first-child){
+    margin-top: 20px;
 }
