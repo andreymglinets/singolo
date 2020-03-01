@@ -9,9 +9,14 @@ body{
 
 header{
     display: flex;
+    width: 100%;
     flex-direction: column;
     background-color: #2d303a;
-    padding-left: 3.9%;
+    /* padding-left: 3.9%; */
+}
+
+.header-padding{
+    margin-left: 3.9%;
 }
 
 .header-logo{
@@ -19,8 +24,12 @@ header{
     font-weight: 900;
     color: #666d89;
     font-size: 30px;
-    padding-top: 63px;
+    padding-top: 60px;
     letter-spacing: -0.3px;
+}
+
+.header-logo:hover{
+    cursor: pointer;
 }
 
 .header-text{
@@ -28,7 +37,7 @@ header{
     font-weight: 300;
     color: #767e9e;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .header-nav{
@@ -41,6 +50,11 @@ header{
     margin-left: 1.1%;
 }
 
+li.header-button:nth-child(1){
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
 li.header-button{
     list-style: none;
     color: #666d89;
@@ -49,7 +63,7 @@ li.header-button{
     font-weight: 400;
     padding: 3px 0.6% 4px 0.6%;
     border-radius: 5px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     white-space: nowrap;
 }
 
@@ -61,7 +75,7 @@ li.header-button:hover{
 
 main{
     background-color: #2d303a;
-    padding: 18px 3.9%;
+    padding-top: 18px ;
     display: flex;
     justify-content: space-between;
 }
@@ -69,14 +83,29 @@ main{
 .first-line{
     display: flex;
     flex-direction: column;
+    margin-left: 3.9%;
 }
 
 .first-line-img:not(:first-child){
     margin-top: 20px;
 }
 
+.first-line-img:hover{
+    cursor: pointer;
+}
+
 .second-line{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+}
+
+.third-line{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-line{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.9%;
 }
