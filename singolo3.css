@@ -5,13 +5,48 @@
 }
 
 header{
+    padding-top: 59px;
+    height: 110px;
     background-color: #f06c64;
+    width: 100%;
 }
 
 .header-name{
     color: #f0d8d9;
     font-weight: 900;
-    margin-top: 59px;
+    font-size: 31px;
     margin-left: 3.9%;
-    letter-spacing: -0.039em;
+    letter-spacing: -0.02em;
+}
+
+.header-text{
+    font-weight: 300;
+    font-size: 18px;
+    color: #f0d8d9;
+    margin-left: 3.9%;
+    margin-right: 3.8%;
+    margin-top: 15px;
+    letter-spacing: 0.009em;
+    line-height: 31px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 48px;
+    background-color: #f06c64;
+}
+
+.main-form{
+
+    margin-left: 3.9%;
+}
+
+#field{
+    border: none;
+    height: 38px;
+    width: 415%;
+    border-radius: 5px;
+    background-color: #d6564f;
 }
