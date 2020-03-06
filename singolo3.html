@@ -18,10 +18,35 @@
     <main>
         <div class="main-form">
             <form action="form.txt">
-                <input type="text" name="Name(id)" placeholder="Name (Required)" id="field">
+                <input type="text" name="Name(id)" placeholder="Name (Required)" class="field">
+                <input type="email" name="email" placeholder="Email (Required)" class="email-field field">
+                <input type="text" name="Subject" placeholder="Subject" class="email-field field">
+                <textarea name="detail" placeholder="Describe your project in detail..." class="email-field"></textarea>
             </form>
         </div>
-        <div class="main-inform"></div>
+        <div class="main-inform">
+            <div class="name-information">
+                Contact Information
+            </div>
+            <div class="text-information">
+                Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. 
+                Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
+                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. 
+            </div>
+            <div class="location-information">
+                <ul class="list-location">
+                    <li id="location" class="list-style"> Elm St. 14/05 Lost City </li>
+                    <li id="phone" class="list-style">03528 331 86 35</li>
+                    <li id="mail" class="list-style">info@singolo.com</li>
+                </ul>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="copiriting">© Copyright 2013</div>
+        <div class="social">
+            <img src="assets/social.png" alt="social-networks">
+        </div>
+    </footer>
 </body>
 </html>
