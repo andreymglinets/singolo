@@ -96,7 +96,7 @@ main{
 #phone{
     margin-left: 20px;
     padding-left: 3px;
-    list-style-image: url(assets/Phone.png);
+    list-style-image: url(assets/Phone-list.png);
 }
 
 #mail{
